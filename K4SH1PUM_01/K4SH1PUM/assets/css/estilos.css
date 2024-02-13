@@ -1,0 +1,132 @@
+@font-face{
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Lobster', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap" rel="stylesheet');
+}
+
+:root{
+  --white : #ffffff;
+  --black : #000;
+  --gris : #373a3c;
+  --danger : #dc3545;
+  --gris-claro: #dddddd;
+}
+body {
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: hsl(0, 0%, 20%);
+  border: #5645a0;
+}
+
+.opciones {
+  margin-bottom: 30px;
+}
+
+.✊🏾 {
+  background-color: hsl(150, 88%, 54%);; /* Color de fondo */
+  border: black; /* Quita el borde */
+  color: white; /* Color del texto */
+  padding: 20px 20px; /* Espaciado dentro del botón */
+  text-align: center; /* Alineación del texto */
+  text-decoration: black; /* Quita la subrayado por defecto */
+  display: inline-block; /* Mantiene el botón en línea */
+  font-size: 100px; /* Tamaño del texto */
+  margin: 10px 10px; /* Margen externo */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  border-radius: 10px; /* Borde redondeado */
+}
+
+.✋🏾 {
+  background-color: hsl(150, 88%, 54%);; /* Color de fondo */
+  border: black; /* Quita el borde */
+  color: white; /* Color del texto */
+  padding: 20px 20px; /* Espaciado dentro del botón */
+  text-align: center; /* Alineación del texto */
+  text-decoration: black; /* Quita la subrayado por defecto */
+  display: inline-block; /* Mantiene el botón en línea */
+  font-size: 100px; /* Tamaño del texto */
+  margin: 10px 10px; /* Margen externo */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  border-radius: 10px; /* Borde redondeado */
+}
+
+.✌🏾 {
+  background-color: hsl(150, 88%, 54%);; /* Color de fondo */
+  border: black; /* Quita el borde */
+  color: white; /* Color del texto */
+  padding: 20px 20px; /* Espaciado dentro del botón */
+  text-align: center; /* Alineación del texto */
+  text-decoration: black; /* Quita la subrayado por defecto */
+  display: inline-block; /* Mantiene el botón en línea */
+  font-size: 100px; /* Tamaño del texto */
+  margin:10px 10px; /* Margen externo */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  border-radius: 10px; /* Borde redondeado */
+}
+
+
+
+/* Estilo cuando el mouse pasa por encima */
+.mi-boton:hover {
+  background-color: #45a049;
+}
+
+
+.opciones {
+  font-size: 7.5rem;
+  min-width: 160px;
+  margin: 0 10px;
+  border-radius: 10px;
+  background-color:hsl(199, 85%, 8%);
+  cursor: pointer;
+  transition: backgraund-color 0.5s ease;
+}
+
+.opciones button:hover {
+  background-color:hsl(200, 100%, 70%);
+}
+
+#vistajugador, #vistarobot{
+  font-size: 2.5rem;
+}
+
+#vistaresultado{
+  font-size: 5rem;
+  margin: 30px 0;
+}
+.records{
+  font-size: 2rem;
+}
+.greenText, #vistarecordsjugador{
+  color: hsl(130, 84%, 54%);
+}
+.redText, #vistarecordsrobot{
+  color: hsl(0, 84%, 60%);
+}
+.texto--footer{
+  font-family: 'cabin regular';
+}
+
+footer {
+  background-color: #333; /* Color de fondo del footer */
+  color: white; /* Color del texto */
+  text-align: center; /* Alineación del texto al centro */
+  padding: 20px 0; /* Espaciado interno */
+  position: fixed; /* Posición fija en la parte inferior */
+  left: 0;
+  bottom: 0;
+  width: 100%; /* Ancho completo */
+}
+
+footer:hover {
+  background-color: #17ec22; /* Cambia el color de fondo al pasar el mouse */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
